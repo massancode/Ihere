@@ -1,12 +1,20 @@
 import { Text,View,StyleSheet,TextInput,TouchableOpacity,FlatList,Alert} from "react-native"; 
+import { useState } from "react";   
 import { styles } from "./styles";
 import { Participant } from "../../components/Participant";
 
 export function Home(){
+  const [participants,setParticpants] = useState<string []>([]);
+  const [participantsName,setParticpantsName] = useState('');
+  
     function handleParticipantAdd (name:string) {
-        if(participants.includes('pedro')){
+        if(participants.includes(participantsName)){
           return Alert.alert("Opa! - Duplicidade","Essa pessoa já esta convdada");
         }
+        setParticpants(prevState => [...prevState,participantsName]);
+    
+        setParticpantsName("");
+
         
     }
     function handleParticipantRemove (name:string) {
@@ -25,8 +33,6 @@ export function Home(){
       
     }
 
-    const participants = ['pedro','juliana','Lyanne','sorencia','junio','leo','alyson','gustavo','naruto','sasuske']
-
   return(
 
     <View style={styles.container}>
@@ -43,9 +49,10 @@ export function Home(){
       <TextInput style={styles.input}
       placeholder="Nome do participante"
       placeholderTextColor={'#6B6B6B'}
-      
-      
+      onChangeText={ textInBox => setParticpantsName(textInBox) }
+      defaultValue={participantsName}
       />
+
       <TouchableOpacity style={styles.button} onPress={() =>handleParticipantAdd('sorencia')} >
         <Text style={styles.buttonText}>
             +
