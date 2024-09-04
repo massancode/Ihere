@@ -70,14 +70,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
       <img alt="Tarefa Concluída" src="./src/assets/images/imagens/Removendo convidado.png" width="200px">
       <p>Removendo convidado</p>
     </td>
-   
-  </tr>
-  <tr>
-    <td align="center">
-      <img alt="Tarefa Contabilizada" src="./src/assets/images/imagens/Tarefa contabilizada.png" width="200px">
-      <p>Tarefa Contabilizada</p>
-    </td>
-  </tr>
 </table>
 
 
