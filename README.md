@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img alt="Todo" height="80" title="Todo App" src="./src/assets/images/logo.png" />
+  <img alt="Ihere" height="80" title="Ihere App" src="./src/assets/images/logo.png" />
 </h1>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ## 💻 Projeto
 
-A aplicação **Todo** foi desenvolvida para ajudar você a gerenciar suas tarefas diárias de maneira simples e eficiente. Adicione, visualize e remova tarefas com facilidade, mantendo-se organizado e produtivo.
+A aplicação iHere foi desenvolvida para ajudar você a confirmar a presença de pessoas em um determinado evento. É muito boa para controle de entradas e excelente para o estudo de useState no React Native.
 
 ## ✨ Tecnologias
 
@@ -29,10 +29,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 ## :hammer_and_wrench: Features
 
--   [ ] Sincronizar com Amazon-Alexa.
--   [ ] Vizualizar todas tarefas concluidas (excluidas).
+-   [ ] Vizualizar os desistentes.
 -   [ ] Criar notificações de push.
 -   [ ] Botão para alterar cor de fundo.
+-   [ ] Guardar o e-mail do convidado.
+-   [ ] Gerar Qr code para consumo
 
 ## 🚀 Executando o Projeto
 
