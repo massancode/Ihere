@@ -9,21 +9,24 @@ export function Home(){
   
     function handleParticipantAdd (name:string) {
         if(participants.includes(participantsName)){
+           
           return Alert.alert("Opa! - Duplicidade","Essa pessoa já esta convdada");
         }
+    
         setParticpants(prevState => [...prevState,participantsName]);
+        
     
         setParticpantsName("");
 
         
     }
     function handleParticipantRemove (name:string) {
+     
         Alert.alert("Removendo...",`deseja mesmo remover o ${name}?`,
         [
           {
             text: 'Confirmar',
-            onPress: () => Alert.alert (`O participante "${name}" foi deletado`)
-            
+            onPress: () => setParticpants(prevState => prevState.filter(item => item  !== name)),
           },
           {
             text: "Cancelar",
@@ -63,19 +66,19 @@ export function Home(){
     </View>  
 
         <FlatList
-        showsVerticalScrollIndicator={false}
-        ListEmptyComponent={() =>(
-          <Text style={styles.listEmptyText}>
-            Adicione mais pessoas a sua lista de presença
-          </Text>
-        )}
-        data={participants}
+        data={participants} 
         keyExtractor={item => item}
         renderItem={({item})=>(
           <Participant 
           key={item}
           name={item} 
           remove={() => handleParticipantRemove(item)}/>
+        )}
+        showsVerticalScrollIndicator={false}
+        ListEmptyComponent={() =>(
+          <Text style={styles.listEmptyText}>
+            Adicione mais pessoas a sua lista de presença
+          </Text>
         )}
         />
  
