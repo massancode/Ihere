@@ -53,31 +53,24 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 <table>
   <tr>
     <td align="center">
-      <img alt="Sem Tarefas" src="./src/assets/images/imagens/Sem Tarefas.png" width="200px">
-      <p>Sem Tarefas</p>
+      <img alt="Sem convidados" src="./src/assets/images/imagens/Sem convidados.png" width="200px">
+      <p>Sem convidado</p>
     </td>
     <td align="center">
-      <img alt="Escrevendo Tarefas" src="./src/assets/images/imagens/Escrevendo tarefas.png" width="200px">
-      <p>Escrevendo Tarefas</p>
+      <img alt="Adicionando convidado" src="./src/assets/images/imagens/Adicionando convidado.png" width="200px">
+      <p>Adicionando convidado</p>
     </td>
     <td align="center">
-      <img alt="Tarefa Adicionada" src="./src/assets/images/imagens/Tarefa adicionada.png" width="200px">
-      <p>Tarefa Adicionada</p>
+      <img alt="Convidado adicionado" src="./src/assets/images/imagens/Convidado adicionado.png" width="200px">
+      <p>Convidado adicionado</p>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img alt="Tarefa Concluída" src="./src/assets/images/imagens/Tarefa concluida.png" width="200px">
-      <p>Tarefa Concluída</p>
+      <img alt="Tarefa Concluída" src="./src/assets/images/imagens/Removendo convidado.png" width="200px">
+      <p>Removendo convidado</p>
     </td>
-    <td align="center">
-      <img alt="Tarefas em Série" src="./src/assets/images/imagens/Tarefas em serie.png" width="200px">
-      <p>Tarefas em Série</p>
-    </td>
-    <td align="center">
-      <img alt="Tela de Confirmação" src="./src/assets/images/imagens/Tarefa tela de confirmação.png" width="200px">
-      <p>Tela de Confirmação</p>
-    </td>
+   
   </tr>
   <tr>
     <td align="center">
